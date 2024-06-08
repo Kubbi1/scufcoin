@@ -40,6 +40,10 @@ button {
     outline: none; /* Убирает синюю обводку */
     user-select: none; /* Запрещает выделение */
     -webkit-tap-highlight-color: transparent; /* Убирает выделение при клике на мобильных устройствах */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* Для iOS */
+    -webkit-tap-highlight-color: transparent; /* Для Android */
+    -webkit-touch-callout: none; /* Запрещает долгое нажатие для вызова контекстного меню */
+}
 }
 
 #clickable-image.clicked {
