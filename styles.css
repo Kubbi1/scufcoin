@@ -33,10 +33,12 @@ button {
 }
 
 #clickable-image {
-    width: 150px;
+    width: 200px;
     cursor: pointer;
     transition: transform 0.1s;
     margin: 20px 0;
+    outline: none; /* Убирает синюю обводку */
+    user-select: none; /* Запрещает выделение */
 }
 
 #clickable-image.clicked {
