@@ -39,6 +39,7 @@ button {
     margin: 20px 0;
     outline: none; /* Убирает синюю обводку */
     user-select: none; /* Запрещает выделение */
+    -webkit-tap-highlight-color: transparent; /* Убирает выделение при клике на мобильных устройствах */
 }
 
 #clickable-image.clicked {
